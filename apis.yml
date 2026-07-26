@@ -1,8 +1,12 @@
 aid: deepsight
-name: Deepsight
-description: Deepsight is a company surfaced as a portfolio company of wing-venture-capital and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+name: DeepSight Technology
+description: DeepSight Technology is a medical-imaging company reinventing diagnostic ultrasound.
+  It is building a semiconductor-based ultrasound sensor and imaging platform (including its NeedleVue
+  technology) to deliver a step-change in ultrasound performance, making this safe, non-invasive,
+  radiation-free, low-cost imaging modality far more usable across clinical applications. The company
+  is a hardware and medical-device business backed by Wing Venture Capital and Deerfield; it is added
+  to the API Evangelist network as a Wing portfolio lead. It does not currently publish a public
+  developer program, API, SDK, or documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/deepsight/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +14,29 @@ x-backed-by:
 - wing-venture-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: http://static1.squarespace.com/static/687a711668b01e2fa0e2e38a/t/687a728d8bd84c175d073a12/1752855181516/DeepSight+%28TM%29+Tech+2-clr+blk%402x.png?format=1500w
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Medical Imaging
+- Ultrasound
+- Diagnostics
+- Medical Devices
+- Health
+- Semiconductor
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +44,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/deepsight-domain-security.yml
 - type: Website
-  url: https://deepsightinc.com/
+  url: https://www.deepsight.com/
+- type: Blog
+  url: https://www.deepsight.com/news
+- type: Support
+  url: https://www.deepsight.com/contact
+- type: PrivacyPolicy
+  url: https://www.deepsight.com/privacy-policy/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
