@@ -26,7 +26,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: http://static1.squarespace.com/static/687a711668b01e2fa0e2e38a/t/687a728d8bd84c175d073a12/1752855181516/DeepSight+%28TM%29+Tech+2-clr+blk%402x.png?format=1500w
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 tags:
